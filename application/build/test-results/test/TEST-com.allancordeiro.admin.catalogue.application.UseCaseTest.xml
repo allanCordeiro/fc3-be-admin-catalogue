@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.allancordeiro.admin.catalogue.application.UseCaseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-07T02:57:23" hostname="PAT01021" time="0.456">
+  <properties/>
+  <testcase name="testCreateUseCase()" classname="com.allancordeiro.admin.catalogue.application.UseCaseTest" time="0.456"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

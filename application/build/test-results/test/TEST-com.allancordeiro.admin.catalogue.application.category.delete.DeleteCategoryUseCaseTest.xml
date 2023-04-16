@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.allancordeiro.admin.catalogue.application.category.delete.DeleteCategoryUseCaseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-12-07T02:57:24" hostname="PAT01021" time="0.023">
+  <properties/>
+  <testcase name="givenAValidId_whenCallsDeleteCategory_shouldBeOK()" classname="com.allancordeiro.admin.catalogue.application.category.delete.DeleteCategoryUseCaseTest" time="0.01"/>
+  <testcase name="givenAnValidId_whenCallsDeleteCategory_shouldBeOK()" classname="com.allancordeiro.admin.catalogue.application.category.delete.DeleteCategoryUseCaseTest" time="0.004"/>
+  <testcase name="givenAValidId_whenGatewayThrowsError_shouldReturnException()" classname="com.allancordeiro.admin.catalogue.application.category.delete.DeleteCategoryUseCaseTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

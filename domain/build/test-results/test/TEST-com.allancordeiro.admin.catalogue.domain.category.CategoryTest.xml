@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-12-07T02:57:26" hostname="PAT01021" time="0.205">
+  <properties/>
+  <testcase name="givenAValidEmptyDescription_whenCallNewCategoryAndValidate_thenShouldReturnSuccess()" classname="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" time="0.071"/>
+  <testcase name="givenNullName_whenCallNewCategoryAndValidate_thenShouldReturnAnError()" classname="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" time="0.005"/>
+  <testcase name="givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdated()" classname="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" time="0.005"/>
+  <testcase name="givenAValidCategory_whenCallUpdateToWithInvalidParame_thenReturnCategoryUpdated()" classname="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" time="0.013"/>
+  <testcase name="givenAValidActiveCategory_whenCallDeactive_thenReturnCategoryInactivated()" classname="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" time="0.004"/>
+  <testcase name="givenAValidDeactivatedCategory_whenCallActived_thenReturnCategoryActivated()" classname="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" time="0.004"/>
+  <testcase name="givenAValidCategory_whenCallUpdateToInactive_thenReturnCategoryUpdated()" classname="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" time="0.006"/>
+  <testcase name="givenAValidIsActiveEqualsFalse_whenCallNewCategoryAndValidate_thenShouldReturnSuccess()" classname="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" time="0.004"/>
+  <testcase name="givenEmptyName_whenCallNewCategoryAndValidate_thenShouldReturnAnError()" classname="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" time="0.003"/>
+  <testcase name="givenInvalidNameGreaterThan255_whenCallNewCategoryAndValidate_thenShouldReturnAnError()" classname="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" time="0.005"/>
+  <testcase name="givenParams_whenCallNewCategory_thenInstantiateANewCategory()" classname="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" time="0.002"/>
+  <testcase name="givenInvalidNameLengthLessThan3_whenCallNewCategoryAndValidate_thenShouldReturnAnError()" classname="com.allancordeiro.admin.catalogue.domain.category.CategoryTest" time="0.005"/>
+  <system-out><![CDATA[318
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

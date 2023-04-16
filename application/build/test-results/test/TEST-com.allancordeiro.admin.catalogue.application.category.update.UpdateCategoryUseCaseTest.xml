@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.allancordeiro.admin.catalogue.application.category.update.UpdateCategoryUseCaseTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-12-07T02:57:24" hostname="PAT01021" time="0.02">
+  <properties/>
+  <testcase name="givenAValidCommand_whenCallsUpdateCategory_thenShouldReturnCategoryId()" classname="com.allancordeiro.admin.catalogue.application.category.update.UpdateCategoryUseCaseTest" time="0.006"/>
+  <testcase name="givenAValidInactiveCommand_whenCallsUpdateCategory_thenShouldReturnInactiveCategoryId()" classname="com.allancordeiro.admin.catalogue.application.category.update.UpdateCategoryUseCaseTest" time="0.002"/>
+  <testcase name="givenAValidCommand_whenGatewayThrowsRandomException_thenShouldReturnAnException()" classname="com.allancordeiro.admin.catalogue.application.category.update.UpdateCategoryUseCaseTest" time="0.003"/>
+  <testcase name="givenAnInvalidName_whenCallsUpdateCategory_thenShouldReturnDomainException()" classname="com.allancordeiro.admin.catalogue.application.category.update.UpdateCategoryUseCaseTest" time="0.002"/>
+  <testcase name="givenACommandWithInvalidID_whenCallsUpdateCategory_thenShouldReturnNotFoundException()" classname="com.allancordeiro.admin.catalogue.application.category.update.UpdateCategoryUseCaseTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
